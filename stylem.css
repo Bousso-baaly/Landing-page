@@ -1,0 +1,146 @@
+@media screen and (max-width: 768px){
+    .navbar ul {
+        
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+    }
+    .section1 .contenu-section1 .img-bkl img {
+        width: 140px;
+    }
+    
+    .section1 .contenu-section1 .first-text {
+        width: 300px;
+        height: 50px;
+        padding-top: 0px;
+    }
+    .section1 .contenu-section1 .first-text p{
+        font-size: 1.3rem;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .section3{
+        margin-top: 100vh;
+    }
+    .liste ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+       
+    }
+    .section3 li {
+        text-align: center;
+    }
+    .section4{
+        height: 250vh;
+    }
+    .section4 .line1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+    }
+    .section4 .line1 .img1{
+        width: 100%;
+        height: 70%;
+    }
+    .section4 .line1 .img2 {
+        width: 100%;
+        height: 70%
+    }
+    
+    .section4 .line1 .img3 {
+        width: 100%;
+        height: 70%
+    }
+    .section4 .line1 .img4 {
+        width: 100%;
+        height: 70%
+    }
+    .section4 .line2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+    }
+    .section4 .line2 .img5{
+        width: 100%;
+        height: 70%;
+    }
+    .section4 .line2 .img6{
+        width: 100%;
+        height: 70%
+    }
+    
+    .section4 .line2 .img7{
+        width: 100%;
+        height: 70%
+    }
+    .section4 .line2 .img8{
+        width: 100%;
+        height: 70%
+    }
+    
+    .section5{
+        margin-top: 12vh;
+    }
+    .section5 .souf {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .section6{
+        height: 220vh;
+    }
+    .section6 .partie-image {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+        gap: 30px;
+    }
+    .section6 .kaw {
+        gap: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .section7{
+        margin-top: 0px;
+    }
+    .section7 .logo img {
+        width: 60px;
+        margin-top: 40px;
+    }
+    .section7 .sous-text {
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+    footer .container{ 
+        display: flex;
+        flex-direction: column;
+    }
+    footer .title {
+        text-align: center;
+        padding-top: 20px ;
+    }
+    footer .texts {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 10px;
+        width: 60%;
+        height: 20px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .texts .text2{
+        margin-top: 20px;
+    }
+    .final-title p{
+        margin-top: 10rem;
+    }
+}
