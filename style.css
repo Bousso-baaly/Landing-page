@@ -77,7 +77,7 @@ li {
 }
 
 .section2 {
-    height: 60vh;
+   padding-bottom: 100px;
     display: flex;
     justify-content: space-around;
 }
@@ -137,105 +137,47 @@ li {
 
 .section4 {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 700px;
+    flex-direction: column;  
+    width: 100%;  
 }
 
 .section4 .line1 {
     display: flex;
+    flex-direction: row;
     width: 100%;
-    height: 50%;
+    
 }
 
-.section4 .line1 .img1 {
+.section4 .line1 .imgs{
     width: 25%;
-    height: 100%;
+    
 }
 
-.section4 .line1 .img1 img {
+.section4 .line1 img{
     width: 100%;
-    height: 100%;
+    
 }
-
-.section4 .line1 .img2 {
-    width: 25%;
-    height: 100%;
-}
-
-.section4 .line1 .img2 img {
-    width: 100%;
-    height: 100%;
-}
-
-.section4 .line1 .img3 {
-    width: 25%;
-    height: 100%;
-}
-
-.section4 .line1 .img3 img {
-    width: 100%;
-    height: 100%;
-}
-
-.section4 .line1 .img4 {
-    width: 25%;
-    height: 100%;
-}
-
-.section4 .line1 .img4 img {
-    width: 100%;
-    height: 100%;
-}
-
-.section4 .line2 {
+.section4 .line2{
     display: flex;
+    flex-direction: row;
     width: 100%;
-    height: 50%;
+    
 }
-
-.section4 .line2 .img5 {
+.section4 .line2 .imgs{
     width: 25%;
-    height: 100%;
+    
 }
 
-.section4 .line2 .img5 img {
+.section4 .line2 img{
     width: 100%;
-    height: 100%;
+    
 }
 
-.section4 .line2 .img6 {
-    width: 25%;
-    height: 100%;
-}
-
-.section4 .line2 .img6 img {
-    width: 100%;
-    height: 100%;
-}
-
-.section4 .line2 .img7 {
-    width: 25%;
-    height: 100%;
-}
-
-.section4 .line2 .img7 img {
-    width: 100%;
-    height: 100%;
-}
-
-.section4 .line2 .img8 {
-    width: 25%;
-    height: 100%;
-}
-
-.section4 .line2 .img8 img {
-    width: 100%;
-    height: 100%;
-}
 
 .section5 {
-    height: 70vh;
+    margin-top: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .section5 .kaw {
@@ -244,7 +186,7 @@ li {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-top: 95px;
+    
 }
 
 .section5 .kaw .texte {
@@ -353,7 +295,7 @@ li {
 
 
 .section6 {
-    height: 95vh;
+    padding-bottom: 100px;
     background-color: rgb(128, 155, 128);
 }
 
@@ -399,8 +341,8 @@ li {
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    height: 40vh;
     font-size: 13px;
+    
 
 }
 
@@ -410,23 +352,25 @@ li {
 }
 
 .section7 .text {
-    margin-top: -40px;
+    padding: 50px;
 }
 
 .section7 .sous-text {
-    margin-top: -50px;
+    padding: 50px;
     font-weight: bold;
-    margin-bottom: 70px;
+    
 }
 
 footer {
     background-color: rgb(207, 202, 202);
-    height: 55vh;
+    padding: 50px;
+    
 }
 footer .container{ 
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     margin: 0 auto;
 }
 footer h2 {
